@@ -1,6 +1,10 @@
 import React from 'react'
 import Button from './Button'
 const App = () => {
+    const miVariable= true
+    if(miVariable){
+        return <p>Mi variable dio true</p>
+    }
     return (
         <div>
             <h1 onClick={(e) => console.log('click',e)}>
@@ -14,7 +18,7 @@ const App = () => {
 
 
         </div>
-    )
+    ) 
 }
 
 export default App
